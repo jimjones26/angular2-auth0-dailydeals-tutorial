@@ -4,10 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { PublicDealsComponent } from './public-deals/public-deals.component';
+import { PrivateDealsComponent } from './private-deals/private-deals.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PublicDealsComponent,
+    PrivateDealsComponent
   ],
   imports: [
     BrowserModule,
